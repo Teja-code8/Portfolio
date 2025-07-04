@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="mediaqueries.css" />
+
+</head>
+<body> 
+    <nav id="desktop-nav">
+    <div class="logo">Teja Jonnala</div>
+    <div>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+<div class="logo">Teja Jonnala</div>
+<div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about"  onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact"  onclick="toggleMenu()">Contact</a></li>
+
+    </div>
+</div>
+</nav>
+<section  id="profile">
+ 
+    <div class="section_pic-container">
+        <img class="profilepic" src="profile.jpg" alt="Teja Jonnala Profile" >
+    
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1 fade-in">Hello, I'm</p>
+        <h1 class="title">Teja Surya</h1>
+        <p class="section_text_p2 fade-in">Frontend Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="">Download cv
+
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info
+
+            </button>
+
+
+        </div>
+        <div id="socials-container">
+  <img
+    src="linkedin.png"
+    alt="My LinkedIn Profile"
+    class="icon"
+    onclick="window.location.href='https://www.linkedin.com/in/teja-surya-jonnala-646051316'"
+  />
+   <img
+    src="git.png"
+    alt="My GitHub Profile"
+    class="icon"
+    onclick="window.location.href='https://github.com/Teja-code8'"
+  />
+</div>
+   
+    </div>
+</section>
+
+
+<section id="about">
+<p class="section_text_p1 fade-in">Get To Know More</p>
+<h1 class="title fade-in">About Me</h1>
+<div class="section-container fade-in">
+<div class="section_pic-container">
+    <img src="about.jpg"
+    alt="Profile picture"
+    class="about-pic"
+   
+    />
+</div>
+<div class="about-details-container">
+    <div class="about-container">
+    <div class="details-containers">
+        <img
+        src="experience.png"
+        alt="Experience icon"
+        class="icon"
+        style="background-color: aliceblue;"
+        />
+        <h3>Experience</h3>
+        <p>1.5 Years <br/>Frontend Developer</p>
+    </div>
+    <div class="details-container">
+        <img src="education.png"
+        alt ="Education icon"
+        class="icon"
+        />
+        <h3>
+            Education
+        </h3>
+        <p>B.Tech <br/>CSE-IOT</p>
+    </div>
+</div>
+<div class="text-container">
+    <p class="para fade-in">
+        I'm a passionate Computer Science Engineering graduate with a focus on the Internet of Things (IoT).
+I enjoy bridging the gap between software and hardware to build smart, real-world solutions.
+My interests lie in embedded systems, IoT architecture, cloud integration, and data analytics.
+    </p>
+</div>
+</div>
+</div>
+
+<img src="arrow.png" alt="Arrow icon" class="icon arrow"
+onclick="location.href='./#experience'"
+/>
+</section>
+
+<section id="experience">
+  <p class="section_text_p1 fade-in">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <!-- Frontend -->
+      <div class="details-containers">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="checkmark.png " alt="Experience Icon" class="icon" />
+            <div>
+              <h3>HTML</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="checkmark.png" alt="Experience Icon" class="icon" />
+            <div>
+              <h3>CSS</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="checkmark.png" alt="Experience Icon" class="icon" />
+            <div>
+              <h3>JavaScript</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img src="checkmark.png" alt="Experience Icon" class="icon" />
+            <div>
+              <h3>TypeScript</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="details-containers">
+        <h2 class="experience-sub-title">Backend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="checkmark.png" alt="Experience Icon" class="icon" />
+            <div>
+              <h3>MySQL</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="checkmark.png" alt="Experience Icon" class="icon" />
+            <div>
+              <h3>NodeJS</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img src="checkmark.png" alt="Experience Icon" class="icon" />
+            <div>
+              <h3>Java</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="checkmark.png" alt="Experience Icon" class="icon" />
+            <div>
+              <h3>Git</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+</section>
+
+<section id="projects">
+  <p class="section_text_p1">Browse My Recent Projects</p>
+  <h1 class="title">Projects</h1>
+  <div class="projects-row">
+    
+    <!-- Project 1 -->
+    <div class="details-container color-container fade-in">
+      <div class="article-container">
+        <img 
+          src="weather.png"
+          alt="Project 1"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">Weather App</h2>
+      <p class="project-description">
+        A responsive weather forecast app that fetches real-time data using a weather API. 
+        Displays temperature, humidity, and conditions based on user input city.
+      </p>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="">View Code</button>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="details-container color-container fade-in">
+      <div class="article-container">
+        <img 
+          src="doodle.png"
+          alt="Project 2"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">Doodle Alarm</h2>
+      <p class="project-description">
+        A smart alarm app that won’t snooze easily — it requires scanning a barcode or solving a math problem to stop ringing. 
+        Designed to prevent oversleeping and improve morning alertness.
+      </p>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="">View Code</button>
+      </div>
+    </div>
+
+  </div>
+   
+</section>
+
+
+<section id="contact">
+<img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+
+<p class="section_text_p1 fade-in">Get In Touch</p>
+<h1 class="title fade-in">Contact Me</h1>
+<div class="contact-info-upper-container">
+    <div class="contact-info-container">
+        <img src="mail.png"
+        alt="Email icon"
+        class="icon contact-icon"
+        />
+        <p><a href="mailto:tejasuryajonnala@gmail.com" >tejasuryajonnala@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+        <img src="linkedin.png"
+        alt="linkedin icon"
+        class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/teja-surya-jonnala-646051316" >Teja Surya Jonnala</a></p>
+    </div>
+
+</div>
+
+    
+</section>
+
+<footer>
+  <nav>
+    <div class="nav-links-container">
+     <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul> 
+
+    </div>
+  </nav>
+  <p>Copyright&#169; 2025 Teja Surya. All Rights Reserved.</p>
+</footer>
+
+
+ <script src="index.js"></script>
+</body>
+</html>
